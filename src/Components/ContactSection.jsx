@@ -31,7 +31,7 @@ export default function ContactSection(){
         setFormReturn("pending")
         modalToggle.click();
         setForm({...form,_captcha: "false"})
-        let data = await axios.post(formSubmitUrl.dev,form,{ headers:{ 'Content-Type': 'application/json' }})
+        let data = await axios.post(formSubmitUrl.prod,form,{ headers:{ 'Content-Type': 'application/json' }})
             .catch( () => {
                 setFormReturn("error")
             })
