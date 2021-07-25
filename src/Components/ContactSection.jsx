@@ -115,7 +115,7 @@ export default function ContactSection(){
                             }
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" disabled={(formReturn !== "true" && formReturn!=="error") ? true : false} data-bs-dismiss="modal" onClick={resetForm}>Close</button>
+                            <button type="button" className="btn bg-alt box-shadow" disabled={(formReturn !== "true" && formReturn!=="error") ? true : false} data-bs-dismiss="modal" onClick={resetForm}>Close</button>
                         </div>
                         </div>
                     </div>
