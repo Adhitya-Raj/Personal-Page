@@ -7,9 +7,11 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Personal and portfolio website of Adhitya Raj, student at College of Engineering, Guindy (CEG)."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,11 +26,70 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <title>Adhitya Raj</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <style>
+        .center{
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+          height: 100vh;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
+          background-color: #fff5ef;
+        }
+        h1{
+          font-size: 2em;
+          font-weight: bold;
+        }
+        .outer-box{
+          position: relative;
+          width: 80vw;
+          height: 4vh;
+          border: 2px solid black;
+        }
+
+        @keyframes loading {
+            0% {
+              left: 0;
+            }
+            50% {
+              left: 69vw;
+            }
+            100%{
+              left: 0;
+            }
+        }
+
+        .outer-box::before{
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          content: '';
+          width: 10vw;
+          height: 3.6vh;
+          background-color: #9eefe5;
+          animation-name: loading;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+        }
+      </style>
+      <div class="center">
+        <h1>&lt;AR/&gt;</h1>
+        <div class="outer-box"></div>
+      </div>
+    </div>
+    <script rel="preload" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -1,0 +1,252 @@
+$black: #000000;
+$primary: #fff5ef;
+$alternate: #e9c8ad;
+$accent1: #9eefe5;
+$accent2: #6bf178;
+
+
+.f-pd{
+    font-family: 'Playfair Display', serif;
+}
+
+.title{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+.subtitle{
+    max-width: max-content;
+    border-top: 2px solid $black;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.f-rb{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-pri{
+    background-color: $primary;
+    border: 2px solid;
+}
+
+.bg-ac1{
+    background-color: $accent1;
+}
+
+.bg-ac2{
+    background-color: $accent2;
+}
+
+.box-shadow{
+    box-shadow: 5px 5px 0px $black;
+    border-radius: 0;
+    border: 2px solid $black;
+}
+
+.bg-alt{
+    border: 2px solid;
+    background-color: $alternate;
+}
+
+.navbar{
+    border-bottom: 2px solid $black;
+}
+
+.navbar-toggler {
+    box-shadow: 2px 2px 0px $black;
+    border: 1px solid $black;
+    border-radius: 0;
+    & > svg {
+        height: 1.5em;
+    }
+}
+
+.navbar-toggler:focus{
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.navbar-brand, .navbar-brand:hover{
+    color: $black;
+    font-weight: bold;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link, .nav-link:hover{
+    position: relative;
+    color: $black;
+}
+
+.nav-link::before{
+    content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $black;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link:focus::before{
+    visibility: visible;
+    width: 100%;
+}
+
+.h-full{
+    min-height: 100vh;
+    &:not(#home){
+        padding-top: 56px;
+    }
+}
+
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-center-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.skill-container {
+	// display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.skill-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.skill-item{
+    display: inline;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+    text-align: center;
+    background-color: $primary;
+    border: 2px solid $black;
+    flex-grow: 1;
+    max-width: max-content;
+}
+
+.dt{
+    text-align: end;
+}
+
+// #projects .card {
+//     flex-direction: row;
+// }
+
+#projects .card-img-top {
+    border-radius: 0;
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-border {
+    border: 2px solid $black;
+    border-radius: 0;
+}
+
+@media screen and (min-width : 768px) {
+    .title{
+        font-size: 4rem;
+    }
+
+    .subtitle{
+        font-size: initial;
+    }
+
+    .tc-a::before{
+        display: block;
+        content: " ";
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: lightgray;
+        border: 1px solid $black;
+        position: absolute;
+        top: 25%;
+        right: 0;
+        transform: translateX(0.75rem);
+        z-index: 1;
+        border-radius: 50%;
+    }
+    
+    .tl-a::after{
+        display: block;
+        content: " ";
+        width: 0.2em;
+        height: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transform: translateX(0.1em);
+    }
+    
+    .tl-b::before{
+        display: block;
+        content: " ";
+        width: 0.2em;
+        height: 100%;
+        background-color: $black;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-0.1em);
+    }
+    
+    .tc-b::after{
+        display: block;
+        content: " ";
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: lightgray;
+        border: 2px solid $black;
+        position: absolute;
+        top: 25%;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-0.75rem);
+        border-radius: 50%;
+    }
+    
+    .tl{
+        position: relative;
+    }
+}
+
+ i {
+    vertical-align: bottom;
+}
+
+footer{
+    background-color: $black;
+    color: $primary;
+}
+
+.link, .link:hover {
+    color: inherit;
+    cursor: pointer;
+}
