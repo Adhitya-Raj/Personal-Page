@@ -12,17 +12,6 @@ const skillset = {
     ]
 }
 
-// const SkillElements = {
-//     main: skillset.main.forEach(skill => {
-//         return skill.map((item)=>{
-//         return (<p className="skill-item">{item}</p>)
-//     })}),
-//     other: skillset.other.forEach(skill => {
-//         return skill.map((item)=>{
-//         return (<p className="skill-item">{item}</p>)
-//     })})
-// }
-
 export default function SkillsSection(){
 
     const [SkillElements, setSkillElements] = useState({main: [], other: []})    
@@ -63,7 +52,7 @@ export default function SkillsSection(){
                 <h2 className="mb-5 f-pd fs-1"><strong>Skills</strong></h2>
                 {SkillElements.main}
                 <br/><br/>
-                <h2 className="mb-5 f-pd fs-1"><strong>Hobbies</strong></h2>
+                <h2 className="mb-5 f-pd fs-2"><strong>Hobbies</strong></h2>
                 {SkillElements.other}
             </div>
         </section>
