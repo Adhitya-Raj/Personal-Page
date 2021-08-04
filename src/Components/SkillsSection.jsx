@@ -7,8 +7,8 @@ const skillset = {
     ['SQL','MongoDB']
     ],
     other:[
-        ['Graphic Designing','Photo Manipulation','Video Editing','UI Designing'],
-        ['Photoshop','Illustrator','Figma','Filmora']
+        ['Graphic Designing','Photo Manipulation','UI Designing','Video Editing'],
+        ['Illustrator','Photoshop','Figma','Filmora']
     ]
 }
 
@@ -63,6 +63,7 @@ export default function SkillsSection(){
                 <h2 className="mb-5 f-pd fs-1"><strong>Skills</strong></h2>
                 {SkillElements.main}
                 <br/><br/>
+                <h2 className="mb-5 f-pd fs-1"><strong>Hobbies</strong></h2>
                 {SkillElements.other}
             </div>
         </section>
