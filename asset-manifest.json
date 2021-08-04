@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.10195347.chunk.css",
-    "main.js": "/static/js/main.b00f733f.chunk.js",
-    "main.js.map": "/static/js/main.b00f733f.chunk.js.map",
+    "main.css": "/static/css/main.9013eb19.chunk.css",
+    "main.js": "/static/js/main.078b5ddc.chunk.js",
+    "main.js.map": "/static/js/main.078b5ddc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc01ba46.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc01ba46.js.map",
     "static/js/2.dc278b9e.chunk.js": "/static/js/2.dc278b9e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0ee1fb7f.chunk.js": "/static/js/3.0ee1fb7f.chunk.js",
     "static/js/3.0ee1fb7f.chunk.js.map": "/static/js/3.0ee1fb7f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.10195347.chunk.css.map": "/static/css/main.10195347.chunk.css.map",
+    "static/css/main.9013eb19.chunk.css.map": "/static/css/main.9013eb19.chunk.css.map",
     "static/js/2.dc278b9e.chunk.js.LICENSE.txt": "/static/js/2.dc278b9e.chunk.js.LICENSE.txt",
     "static/media/Carsbnb.7489efc2.png": "/static/media/Carsbnb.7489efc2.png",
     "static/media/Kavinograph.9c421205.png": "/static/media/Kavinograph.9c421205.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.cc01ba46.js",
     "static/js/2.dc278b9e.chunk.js",
-    "static/css/main.10195347.chunk.css",
-    "static/js/main.b00f733f.chunk.js"
+    "static/css/main.9013eb19.chunk.css",
+    "static/js/main.078b5ddc.chunk.js"
   ]
 }
