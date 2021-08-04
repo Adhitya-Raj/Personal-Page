@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10195347.chunk.css",
+    "main.js": "/static/js/main.b00f733f.chunk.js",
+    "main.js.map": "/static/js/main.b00f733f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc01ba46.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc01ba46.js.map",
+    "static/js/2.dc278b9e.chunk.js": "/static/js/2.dc278b9e.chunk.js",
+    "static/js/2.dc278b9e.chunk.js.map": "/static/js/2.dc278b9e.chunk.js.map",
+    "static/js/3.0ee1fb7f.chunk.js": "/static/js/3.0ee1fb7f.chunk.js",
+    "static/js/3.0ee1fb7f.chunk.js.map": "/static/js/3.0ee1fb7f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.10195347.chunk.css.map": "/static/css/main.10195347.chunk.css.map",
+    "static/js/2.dc278b9e.chunk.js.LICENSE.txt": "/static/js/2.dc278b9e.chunk.js.LICENSE.txt",
+    "static/media/Carsbnb.7489efc2.png": "/static/media/Carsbnb.7489efc2.png",
+    "static/media/Kavinograph.9c421205.png": "/static/media/Kavinograph.9c421205.png",
+    "static/media/Magscripto.7910ec44.png": "/static/media/Magscripto.7910ec44.png",
+    "static/media/Photo.b2106b5f.jpg": "/static/media/Photo.b2106b5f.jpg",
+    "static/media/Resume.eaa07dd0.pdf": "/static/media/Resume.eaa07dd0.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc01ba46.js",
+    "static/js/2.dc278b9e.chunk.js",
+    "static/css/main.10195347.chunk.css",
+    "static/js/main.b00f733f.chunk.js"
+  ]
+}
